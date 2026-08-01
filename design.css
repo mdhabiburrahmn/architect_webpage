@@ -50,6 +50,12 @@
 
 .navbar, .banner{
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
-
+.banner .banner-content{
+    max-width: 882px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 209px ;
+    
+}
