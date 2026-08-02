@@ -163,7 +163,7 @@ main .experience-section{
 .experience-section .experience-content{
     max-width: 654px;
     border: 1px solid green;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .experience-content .experi-title{
@@ -173,6 +173,7 @@ main .experience-section{
 }
 .experience-section .experience-img{
     max-width: 800px;
+    padding-bottom: 40px;
 }
 
 .experience-content .experi-description{
@@ -180,4 +181,31 @@ main .experience-section{
     line-height: 26px;
     font-weight: 400;
     margin-bottom: 30px;
+}
+
+.experience-content .experi-card-lists{
+    border: 1px solid blue;
+}
+
+.experi-card-lists .experi-card{
+    max-width: 586px;
+    padding: 30px 42px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+
+.experi-card .card-title{
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.experi-card .ex-card-description{
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+    
 }
