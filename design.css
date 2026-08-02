@@ -40,7 +40,7 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
-/* Primary Button Design */
+/* Primary Button Design Share Style */
 .primary-btn{
     background-color: #FF900E;
     color: white;
@@ -50,7 +50,7 @@
     padding: 20px 24px;
     border: none;
     border-radius: 8px;
-    margin:32px;
+    margin:32px 0px;
     
 }
 
@@ -109,7 +109,7 @@ header nav{
     padding: 20px 24px;
     border: none;
     border-radius: 8px;
-    margin:32px;
+    /* margin:32px; */
 }
 
 .banner .banner-bg-img{
@@ -122,7 +122,6 @@ header nav{
 
 main{
     max-width: 1440px;
-    border: 1px solid red;
     margin: 0 auto;
 }
 
@@ -144,19 +143,11 @@ main .teams{
 
 .teams .team-description{
     max-width: 537px;
-    border: 1px solid forestgreen;
     margin-left: 73px;
     justify-content: center;
 }
 
-.team-btn{
-    background-color: #FF900E;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    max-width: 184px;
-    padding: 20px 24px;
-    border: none;
-    border-radius: 8px;
+.team-description .team-title{
+    font-size: 45px;
+    margin-bottom: 24px;
 }
-    
