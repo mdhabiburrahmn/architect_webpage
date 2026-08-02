@@ -118,3 +118,34 @@ header nav{
     padding-bottom: 50px;
 }
 
+/* Main Section Designs */
+
+main{
+    max-width: 1440px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 85px;
+}
+
+/* Teams Section Designs */
+
+main .teams{
+    align-items: center;
+}
+
+.teams .team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.teams .team-description{
+    max-width: 537px;
+    border: 1px solid forestgreen;
+    margin-left: 73px;
+    justify-content: center;
+}
+
