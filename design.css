@@ -43,6 +43,14 @@
 /* Primary Button Design */
 .primary-btn{
     background-color: #FF900E;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 184px;
+    padding: 20px 24px;
+    border: none;
+    border-radius: 8px;
+    margin:32px;
     
 }
 
@@ -103,3 +111,10 @@ header nav{
     border-radius: 8px;
     margin:32px;
 }
+
+.banner .banner-bg-img{
+    max-width: 1440px;
+    border: none;
+    padding-bottom: 50px;
+}
+
