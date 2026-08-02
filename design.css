@@ -155,14 +155,12 @@ main .teams{
 /* Experience Section Designs */
 
 main .experience-section{
-    border: 1px solid red;
     display: flex;
     gap: 54px ;
 }
 
 .experience-section .experience-content{
     max-width: 654px;
-    border: 1px solid green;
     margin-top: 60px;
 }
 
@@ -181,10 +179,6 @@ main .experience-section{
     line-height: 26px;
     font-weight: 400;
     margin-bottom: 30px;
-}
-
-.experience-content .experi-card-lists{
-    border: 1px solid blue;
 }
 
 .experi-card-lists .experi-card{
@@ -207,5 +201,16 @@ main .experience-section{
     font-size: 16px;
     color: #727272;
     line-height: 26px;
-    
+}
+
+.experi-badge{
+    color: #FFFFFF;
+    max-width: 342px;
+    background-color: #FF900E;
+    text-align: center;
+    padding: 46px 45px;
+    border: none;
+    border-radius: 8px;
+    margin-top: -70px;
+    margin-left: -96px;
 }
