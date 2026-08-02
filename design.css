@@ -21,6 +21,7 @@
     display: flex;
 }
 
+
 /* Dark1 */
 
 .title-text-color{
@@ -35,16 +36,20 @@
 .normal-text{
     color: #727272;
 }
-
  .bg-light-color{
     background-color: rgba(255, 144, 14, 0.1);
- }
+}
+
+/* Primary Button Design */
+.primary-btn{
+    background-color: #FF900E;
+    
+}
 
 /* Header Related Designs */
 header{
     padding-top: 50px;
 }
-
 header nav{
     align-items: center;
 }
@@ -71,7 +76,6 @@ header nav{
 }
 .banner .banner-content{
     max-width: 882px;
-    border: 1px solid red;
     margin: 0 auto;
     margin-top: 209px;
     text-align: center;
@@ -87,4 +91,15 @@ header nav{
     font-weight: none;
     line-height: 30px;
     margin-top: 35px;
+}
+
+.banner .button-section button{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 184px;
+    padding: 20px 24px;
+    border: none;
+    border-radius: 8px;
+    margin:32px;
 }
