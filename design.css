@@ -151,3 +151,10 @@ main .teams{
     font-size: 45px;
     margin-bottom: 24px;
 }
+
+/* Experience Section Designs */
+
+main .experience-section{
+    border: 1px solid red;
+    display: flex;
+}
