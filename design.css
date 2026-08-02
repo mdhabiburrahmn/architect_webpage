@@ -149,3 +149,14 @@ main .teams{
     justify-content: center;
 }
 
+.team-btn{
+    background-color: #FF900E;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 184px;
+    padding: 20px 24px;
+    border: none;
+    border-radius: 8px;
+}
+    
