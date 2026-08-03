@@ -219,7 +219,6 @@ main .experience-section{
 
 .fact-section{
     max-width: 1440px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -235,4 +234,22 @@ main .experience-section{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+
+.fact-section .fact-card-section{
+    max-width: 1340px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.fact-card-section .fact-card{
+    max-width: 242px;
+    max-height: 242px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 45px 36px;
 }
