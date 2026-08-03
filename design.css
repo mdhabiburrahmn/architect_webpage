@@ -282,3 +282,23 @@ main .experience-section{
     justify-content: space-between;
     margin-top: 50px;
 }
+
+/* Copyright Section Design */
+
+.copyright-container{
+    max-width: 1440px;
+    max-height: 100px;
+    background-color: rgba(255, 144, 14, 0.1);
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 216px;
+    text-align: center;
+    padding: 39px 440px;
+}
+
+.copyright-container .copyright-text{
+    font-size: 16px;
+    color: #727272;
+    font-weight: 400;
+    line-height: auto;
+}
