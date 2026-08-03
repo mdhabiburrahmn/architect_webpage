@@ -214,3 +214,25 @@ main .experience-section{
     margin-top: -70px;
     margin-left: -96px;
 }
+
+/* Fact and Sponsered Section Designs */
+
+.fact-section{
+    max-width: 1440px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.fact-heading .fact-title{
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.fact-heading .title-decription{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
